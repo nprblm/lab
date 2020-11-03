@@ -8,7 +8,7 @@
     
     Add comments for lab_1  
 
-Команди для комміту:  
-$ git status  
-$ git commit -a -m "Add comments for lab_1"  
-$ git push
+-Команди для комміту:  
+        $ git status  
+        $ git commit -a -m "Add comments for lab_1"  
+        $ git push
