@@ -12,13 +12,12 @@
         $ git status  
         $ git commit -a -m "Add comments for lab_1"  
         $ git push  
-- Перейшов в гілку main:  
-     $ git checkout main    
-     В цій гілці не відображаються зміни інших гілок, бо це головна гілка репозиторію, а інша гілка є "копією"  
-                  
-- Переключився на нову гілку:  
-    $ git checkout new-branch
-    Switched to a new branch 'new-branch'
+        - Переключився на нову гілку:  
     $ git checkout new-branch  
+    Switched to a new branch 'new-branch'  
+    $ git checkout new-branch    
     Switched to a new branch 'new-branch'    
-    
+- Перейшов в гілку main:    
+     $ git checkout main      
+     В цій гілці не відображаються зміни інших гілок, бо це головна гілка репозиторію, а інша гілка є "копією"    
+     
