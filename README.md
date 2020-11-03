@@ -11,4 +11,7 @@
 - Команди для комміту:  
         $ git status  
         $ git commit -a -m "Add comments for lab_1"  
-        $ git push
+        $ git push  
+        - Перейшов в гілку main:
+     $ git checkout main  
+     В цій гілці не відображаються зміни інших гілок, бо це головна гілка репозиторію, а інша гілка є "копією"             
