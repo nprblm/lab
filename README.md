@@ -15,5 +15,6 @@
 - Переключився на нову гілку:  
     $ git checkout new-branch
     Switched to a new branch 'new-branch'
-    Branch 'new-branch' set up to track remote branch 'new-branch' from 'origin'.  
+    $ git checkout new-branch  
+    Switched to a new branch 'new-branch'    
     
