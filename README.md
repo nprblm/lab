@@ -12,3 +12,8 @@
         $ git status  
         $ git commit -a -m "Add comments for lab_1"  
         $ git push
+-Переключився на нову гілку:  
+    $ git checkout new-branch
+    Switched to a new branch 'new-branch'
+    Branch 'new-branch' set up to track remote branch 'new-branch' from 'origin'.  
+    
