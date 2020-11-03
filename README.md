@@ -6,9 +6,9 @@
         Author: Vitalik Bella <vitalii.bella.itis.2018@lpnu.ua>  
         Date:   Tue Nov 3 18:37:10 2020 +0300  
     
-        Add comments for lab_1  
+    Add comments for lab_1  
 
-Команди для комміту: 
-    $ git status
-    $ git commit -a -m "Add comments for lab_1"
-    $ git push
+Команди для комміту:  
+$ git status  
+$ git commit -a -m "Add comments for lab_1"  
+$ git push
