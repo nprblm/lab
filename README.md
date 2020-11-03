@@ -16,3 +16,9 @@
      $ git checkout main    
      В цій гілці не відображаються зміни інших гілок, бо це головна гілка репозиторію, а інша гілка є "копією"  
                   
+- Переключився на нову гілку:  
+    $ git checkout new-branch
+    Switched to a new branch 'new-branch'
+    $ git checkout new-branch  
+    Switched to a new branch 'new-branch'    
+    
