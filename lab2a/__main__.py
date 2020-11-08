@@ -17,6 +17,10 @@ def main(text):
     print(common.get_current_platform())
     if text:
         print("З консолі було передано аргумент\n", 10*"=", f">> {text} <<", 10*"=")
+    print("If true:")
+    print(common.get_Bullvalue('True'))
+    print("If false:")
+    print(common.get_Bullvalue('False'))
 
 
 def how_to_write_logs():
@@ -25,9 +29,12 @@ def how_to_write_logs():
     logger.error("Це повідомлення про помилку")
 
 
+
+
 if __name__ == '__main__':
     args = parser.parse_args()
     if args.logs:
         how_to_write_logs()
     else:
         main(args.opt)
+        
