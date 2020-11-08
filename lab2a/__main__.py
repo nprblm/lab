@@ -17,10 +17,10 @@ def main(text):
     print(common.get_current_platform())
     if text:
         print("З консолі було передано аргумент\n", 10*"=", f">> {text} <<", 10*"=")
-    print("If true:")
-    print(common.get_Bullvalue('True'))
-    print("If false:")
-    print(common.get_Bullvalue('False'))
+print("If true:")
+common.get_Bullvalue(True)
+print("If false:")
+common.get_Bullvalue(False)
 
 
 def how_to_write_logs():
@@ -37,4 +37,10 @@ if __name__ == '__main__':
         how_to_write_logs()
     else:
         main(args.opt)
+
+try:
+        common.checkTF(1)
+        logger.info("Function is working")
+except Exception as e:
+        logger.error(f" Erorr ==> {e}")        
         

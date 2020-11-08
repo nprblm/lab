@@ -16,10 +16,13 @@ def get_current_platform():
     return sys.platform
 
 def get_Bullvalue(value):
-    if (value == "True"):
+    if (value == 1):
      for number in range(2,101,2):
             print(number)
     else:
-        if (value == "False"):
+        if (value == 0):
          for number in range(1,100,2):
-                print(number)
+             print(number)
+
+def checkTF(integer):
+        return 10 / integer
