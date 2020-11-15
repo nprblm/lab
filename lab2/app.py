@@ -46,7 +46,7 @@ def home_work():
          value="success"
     
     else:
-         print("Доброго вечора")
+         print("Доброї ночі")
          value="success"
          
     return value
