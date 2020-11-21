@@ -12,3 +12,4 @@
      $ pipenv run pytest tests/tests.py > results.txt  
      $ pipenv run python app.py >> results.txt  
 - Зробив коміт
+- Заповнив Make файл та запустив його на лінуксі
