@@ -22,6 +22,6 @@ class TestClass(unittest.TestCase):
             main(self.ip_url)
 
     def test_home_work(self):
-        z=home_work()
-        self.assertTrue(z=="success")
+        self.assertEqual(home_work("http://date.jsontest.com/"), True)
+        self.assertEqual(home_work("http://date.jsontest.com/"), False)
 

@@ -41,15 +41,16 @@ def main(url=''):
 
 
 def home_work():
-    if time.localtime()[3] < 12:  
-         print("Доброго ранку")
-         value="success"
+
+ if time.localtime()[3] < 12:
+    true = True;
+    print("Доброго ранку")    
     
-    else:
-         print("Доброї ночі")
-         value="success"
+ else:
+    true = False;
+    print("Доброї ночі")   
          
-    return value
+    return true
 
 
 def my_good_fun():
